@@ -35,7 +35,7 @@ public class testdemo1 {
 //		driver = new FirefoxDriver(options);
 	Thread.sleep(3000);
 	driver.get("https://opensource-demo.orangehrmlive.com/");
-	Assert.assertTrue(driver.getTitle().contains("Orange"), "Title does not match");
+	Assert.assertTrue(driver.getTitle().contains("Orange"), "Title does not match yet");
 	Thread.sleep(3000);
 	driver.quit();
 	}
